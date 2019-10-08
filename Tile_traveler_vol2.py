@@ -96,6 +96,7 @@ def x2y3():
 def x3y1():
     global coins
     print("Victory! Total coins {}.".format(coins))
+    play()
 
 
 def x3y2():
@@ -142,6 +143,13 @@ def pull_lever():
         global coins
         coins = coins +1
         print("You received 1 coin, your total is now {}.".format(coins))
+
+def play():
+    global coins
+    anwser = input("Play again (y/n): ")
+    if anwser == "y" or anwser == "Y":
+        coins = 0
+        x1y1()
 
 
 
