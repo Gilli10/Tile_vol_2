@@ -125,6 +125,8 @@ def inputdir():
     direction = input("Direction: ")
     return direction
 
+def pull_lever():
+    
 
 # Starts the game with the player in box [1, 1]
 x1y1()
