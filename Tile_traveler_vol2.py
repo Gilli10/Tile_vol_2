@@ -131,7 +131,7 @@ def inputdir():
 def pull_lever():
     anwser = input("Pull a lever (y/n): ")
     if anwser == "y" or anwser == "Y":
-        coins += 1
+        Coins += 1
 
 
 
