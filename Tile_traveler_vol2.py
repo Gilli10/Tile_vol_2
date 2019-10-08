@@ -14,9 +14,9 @@ def x1y1():
 
 def x1y2():
     pull_lever()
-    print("You can travel: (N)orth or (E)ast or (S)outh.")
     status = True
     while status == True:
+        print("You can travel: (N)orth or (E)ast or (S)outh.")
         input_dir = inputdir()
         if input_dir == "n" or input_dir == "N":
             status = False
@@ -31,10 +31,10 @@ def x1y2():
             print("Not a valid direction!")
 
 
-def x1y3():
-    print("You can travel: (E)ast or (S)outh.")
+def x1y3(): 
     status = True
     while status == True:
+        print("You can travel: (E)ast or (S)outh.")
         input_dir = inputdir()
         if input_dir == "e" or input_dir == "E":
             status = False
@@ -47,9 +47,9 @@ def x1y3():
 
 
 def x2y1():
-    print("You can travel: (N)orth.")
     status = True
     while status == True:
+        print("You can travel: (N)orth.")
         input_dir = inputdir()
         if input_dir == "n" or input_dir == "N":
             status = False
@@ -60,9 +60,10 @@ def x2y1():
 
 def x2y2():
     pull_lever()
-    print("You can travel: (S)outh or (W)est.")
+    
     status = True
     while status == True:
+        print("You can travel: (S)outh or (W)est.")
         input_dir = inputdir()
         if input_dir == "w" or input_dir == "W":
             status = False
@@ -76,9 +77,10 @@ def x2y2():
 
 def x2y3():
     pull_lever()
-    print("You can travel: (E)ast or (W)est.")
+    
     status = True
     while status == True:
+        print("You can travel: (E)ast or (W)est.")
         input_dir = inputdir()
         if input_dir == "e" or input_dir == "E":
             status = False
@@ -98,9 +100,10 @@ def x3y1():
 
 def x3y2():
     pull_lever()
-    print("You can travel: (N)orth or (S)outh.")
+    
     status = True
     while status == True:
+        print("You can travel: (N)orth or (S)outh.")
         input_dir = inputdir()
         if input_dir == "n" or input_dir == "N":
             status = False
@@ -113,9 +116,10 @@ def x3y2():
 
 
 def x3y3():
-    print("You can travel: (S)outh or (W)est.")
+    
     status = True
     while status == True:
+        print("You can travel: (S)outh or (W)est.")
         input_dir = inputdir()
         if input_dir == "w" or input_dir == "W":
             status = False
