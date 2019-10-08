@@ -1,3 +1,6 @@
+Coins = 0
+
+
 def x1y1():
     print("You can travel: (N)orth.")
     status = True
@@ -126,7 +129,11 @@ def inputdir():
     return direction
 
 def pull_lever():
-    
+    anwser = input("Pull a lever (y/n): ")
+    if anwser == "y" or anwser == "Y":
+        coins += 1
+
+
 
 # Starts the game with the player in box [1, 1]
 x1y1()
