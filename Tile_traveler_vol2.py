@@ -15,6 +15,7 @@ def x1y1():
 
 def x1y2():
     print("You can travel: (N)orth or (E)ast or (S)outh.")
+    pull_lever()
     status = True
     while status == True:
         input_dir = inputdir()
@@ -60,6 +61,7 @@ def x2y1():
 
 def x2y2():
     print("You can travel: (S)outh or (W)est.")
+    pull_lever()
     status = True
     while status == True:
         input_dir = inputdir()
@@ -74,6 +76,7 @@ def x2y2():
 
 
 def x2y3():
+    pull_lever()
     print("You can travel: (E)ast or (W)est.")
     status = True
     while status == True:
@@ -90,10 +93,11 @@ def x2y3():
 
 # If this function is called, "Victory!" gets printed out.
 def x3y1():
-    print("Victory!")
+    print("Victory! Total coins",Coins)
 
 
 def x3y2():
+    pull_lever()
     print("You can travel: (N)orth or (S)outh.")
     status = True
     while status == True:
